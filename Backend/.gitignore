@@ -1,0 +1,46 @@
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-code files
+__pycache__/
+*.pyc
+# Compiled extensions (for some libraries)
+*.so
+*.pyd
+
+# Temporary files, caches, and logs
+*.log
+*.cache
+.pytest_cache/
+.mypy_cache/
+.idea/  # For PyCharm/IntelliJ IDE users
+.vscode/ # For VS Code users
+htmlcov/
+.coverage*
+coverage.xml
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Databases (if using SQLite for development)
+*.db
+test.db
+
+# Sensitive environment variables
+.env
+.flaskenv
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Documentation build artifacts (if applicable)
+docs/_build/
+site/
+
+# FastAPI Cloud deployment ignores (optional, specific to FastAPI Cloud)
+# For more info see 
